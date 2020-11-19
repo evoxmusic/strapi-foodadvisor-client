@@ -1,0 +1,12 @@
+---
+application:
+  name: "web-client"
+  project: "my foodadvisor"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-web-client"
+  routes:
+  - application_name: "web-client"
+    paths:
+    - "/"
+
