@@ -4,12 +4,9 @@ application:
   project: "my foodadvisor"
   organization: "QoveryCommunity"
 routers:
-- name: "main"
+- name: "router-web-client"
   routes:
   - application_name: "web-client"
     paths:
     - "/"
-  - application_name: "strapi-api"
-    paths:
-    - "/api"
 
